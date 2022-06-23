@@ -39,3 +39,17 @@
 .temp{
   font-size: 20px;
 }
+.mainDiv{
+  margin-top: 100px;
+  /* border: 2px solid red; */
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.div1{
+  border: 2px solid blue;
+  width: 30%;
+  margin: auto;
+  height: 450px;
+}
