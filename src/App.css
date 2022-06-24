@@ -40,16 +40,30 @@
   font-size: 20px;
 }
 .mainDiv{
-  margin-top: 100px;
+  /* margin-top: 100px; */
   /* border: 2px solid red; */
-  height: 500px;
+  background-color: rgb(255, 246, 246);
+  height: 750px;
   display: flex;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
 }
 .div1{
-  border: 2px solid blue;
+  background-color: rgb(242, 238, 238);
+  /* border: 2px solid blue; */
+  border-radius: 40px;
   width: 30%;
   margin: auto;
   height: 450px;
+}
+input{
+  width: 50%;
+  background-color: rgb(242, 238, 238);
+  height: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+::placeholder{
+  text-align: center;
 }
