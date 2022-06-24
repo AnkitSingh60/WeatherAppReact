@@ -7,12 +7,13 @@ const Weather = () => {
   useEffect(() => {
     const getData = async () => {
       let response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=89744e106db172f83cfdcd8b6756e3a9`
+        `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=89744e106db172f83cfdcd8b6756e3a9`
       );
       let res = await response.json();
       console.log("res:", res);
       setCity(res.main);
     };
+
     getData();
   }, [search]);
 
