@@ -44,17 +44,23 @@
   /* border: 2px solid red; */
   background-color: rgb(255, 246, 246);
   height: 750px;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   /* text-align: center; */
 }
+body{
+  background-color: rgb(255, 246, 246);
+}
 .div1{
   background-color: rgb(242, 238, 238);
-  /* border: 2px solid blue; */
   border-radius: 40px;
   width: 30%;
   margin: auto;
-  height: 450px;
+  /* height: 450px; */
+}
+.div0{
+  margin-top: 100px;
+  
 }
 input{
   width: 50%;
